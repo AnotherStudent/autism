@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "demonstart": "nodemon",
+    "start": "node ./src/index.js"
+  },
+  "name": "express_starters0",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "repository": "https://github.com/GossJS/express_starters0.git",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.0.12",
+    "pug": "^2.0.1"
+  }
+}
