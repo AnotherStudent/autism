@@ -34,7 +34,8 @@ app
     if(user) {
       if(user.password === r.body.pass) {
         r.session.auth = 'ok';
-        r.res.send('Good!');
+        //r.res.send('Login ok!');
+        r.res.redirect('/users/');
       } else {
         r.res.send('Wrong pass!');
       }
